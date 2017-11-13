@@ -1,0 +1,29 @@
+@charset "utf-8";
+.container{ background:#f0f0f0; padding-top:10px;padding-bottom:30px !important;}
+.container>div{ width:1200px; margin:0 auto;}
+.container div .container_header{ background:#fff;border-radius:10px;padding: 50px 50px 20px 50px; margin-top:30px;margin-bottom:20px;animation: show .6s;}
+.container div .container_header .left{ float:left; width:400px;}
+.container div .container_header .right{ float:right; width:650px;}
+.container div .container_header .right h3{font-size: 20px; line-height: 30px; font-weight:normal; padding-left: 6px;}
+.container div .container_header .right small{display: block;margin-bottom:40px; font-size: 13px; padding: 5px 10px 25px 8px; color: #999; border-bottom: 1px solid #e9e9e9;}
+.container div .container_header .right small span{color:#E16501;}
+.container div .container_header .right p{display: block; padding: 30px 10px; color: #444; border-top:1px solid #e9e9e9; font-size:14px; line-height:24px;}
+.container div article{animation: ajax .6s;min-height:50px;float:left;width: 800px; padding: 37px 50px 50px 50px; background: #fff; border-radius: 6px;}
+.container div article .center{ text-align:center;}
+.container div article .height_big{ line-height:48px;}
+.container div .indent_0{ text-indent:0;}
+.container div .indent_none{text-indent:0; padding-left:28px;}
+.container div article h4{ height:26px; line-height:26px; margin-top:24px; font-size:14px;}
+.container div article p{ font-size:14px; color:#000;margin-top:24px; font-family:'simsun'; line-height:24px; text-indent:28px;}
+.container div article img{max-width:100%; margin:30px auto 0;}
+.container div article .ul_simulation{ position:relative; padding-left:45px;}
+.container div article .ul_simulation span{width:10px;position:absolute;height:24px; left:28px;}
+.container div article .ul_simulation span i{width:10px; height:10px;border-radius:50%;background:#000; position:absolute; top:50%; margin-top:-5px;}
+.container div article table{ text-align:center;}
+.container div article table td{    word-break: break-all; border-width: 1px; border-style: solid; padding: .7rem; line-height: 1.6; width:400px; vertical-align: top; border-top: 1px solid #e5e5e5;}
+.container div aside{animation: ajax .6s; float:right;   width: 240px; background: #fff; border-radius: 6px; padding: 20px;}
+.container div aside h3{font-size: 18px; font-weight:400;}
+.container div aside ul li{margin-top:15px;}
+.container div aside ul li h4{font-size: 15px; margin-top: 6px; height: 24px; color:#000; line-height: 24px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.container div aside ul li:hover h4{color:#E16501;}
+.container div aside ul li p{line-height: 20px; font-size: 14px; color: #999;}

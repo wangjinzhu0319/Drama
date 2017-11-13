@@ -1,0 +1,6 @@
+.container div article{ text-align:left;}
+.container div article p{ font-size:14px; color:rgb(51, 51, 51); text-indent:28px;}
+.container div article p.center{text-indent:0;text-align:center; color:rgb(51, 51, 51);}
+.container div article p>i{ color:rgb(51, 51, 51);font-size: 14px;line-height: 21px;}
+mark{ background:none;}
+.orange mark{ color:rgb(255, 104, 39);}

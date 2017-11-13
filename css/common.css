@@ -1,0 +1,310 @@
+header{
+    width:100%;
+    background:#000;
+    height:70px;
+    position:fixed;
+    color:#fff;
+    opacity:0.95;
+    z-index:1000000;
+    top:0;
+}
+
+header div{
+    width:100%;
+    max-width:1180px;
+    margin:0 auto;
+    height:100%;
+}
+
+header div .logo, header div > nav{
+    float:left;
+}
+
+/*logo部分*/
+header div .logo{
+    width:4.237%;
+    height:100%;
+    margin-right:2.542%;
+    position:relative;
+}
+
+header div .logo a{
+    position:absolute;
+    top:50%;
+    margin-top:-25px;
+}
+
+/*nav部分*/
+header div nav{
+    width:61.356%;
+    height:100%;
+}
+
+header div nav ul{
+    height:100%;
+}
+
+header div > nav > ul > li{
+    width:16.5746%;
+    height:100%;
+    float:left;
+    position:relative;
+}
+
+header div nav ul li em{
+    width:100%;
+    display:block;
+    height:100%;
+    overflow:hidden;
+}
+
+header div nav ul li em a{
+    display:block;
+    width:200%;
+    color:#fff;
+    height:100%;
+}
+
+header div > nav ul li a b, header div nav ul li a p{
+    float:left;
+    width:120px;
+    height:100%;
+    display:block;
+    position:relative;
+    font-weight:400;
+    transition:.5s;
+}
+
+header div > nav i{
+    font-style:normal;;
+}
+
+header div > nav > ul > li em a > p i, header div > nav > ul > li em a b i{
+    height:24px;
+    text-align:center;
+    line-height:24px;
+    position:absolute;
+    top:50%;
+    font-size:14px;
+    margin-top:-12px;
+    width:100%;
+}
+
+header div nav ul li dl{
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    z-index:9999;
+    background:#000;
+    transition:.2s;
+}
+
+header div nav ul li dt{
+    border:0 solid #000;
+    width:0;
+    height:0;
+    overflow:hidden;
+    border-top:0 solid #E16501;
+    position:absolute;
+    left:50%;
+    top:-17px;
+    transition:.3s .4s;
+}
+
+header div nav ul li dd{
+    display:block;
+    height:0;
+    line-height:36px;
+    text-align:center;
+    overflow:hidden;
+    transition:.2s;
+}
+
+header div nav ul li dd a{
+    color:#fff;
+    font-size:14px;
+}
+
+header div nav ul li:hover dl{
+    padding:12px 0 14px 0;
+    transition:.3s .4s;
+}
+
+header div nav ul li:hover dl dd{
+    height:36px;
+    transition:.3s .4s;
+}
+
+header div nav ul li:hover dl dt{
+    border-width:7px;
+    border-bottom:0;
+    margin-left:-7px;
+    transition:.3s .4s;
+}
+
+header div > nav > ul > li:hover b{
+    margin-left:-120px;
+}
+
+header div > nav > ul > li em a p{
+    top:-3px;
+    border-bottom:3px solid #E16501;
+}
+
+/*搜索 语言部分*/
+header div .search, header div .lang{
+    float:right;
+    width:70px;
+    position:relative;
+}
+
+header div .search{
+    overflow:hidden;
+    transition:0.5s 0.2s;
+}
+
+header div .search i{
+    position:absolute;
+    cursor:pointer;
+    left:16px;
+    top:50%;
+    margin-top:-18px;
+    font-size:36px;
+    line-height:36px;
+}
+
+header div .search:hover{
+    width:250px;
+    transition:0.5s 0.2s;
+}
+
+header div .search input{
+    position:absolute;
+    width:180px;
+    height:20px;
+    font-size:16px;
+    color:#fff;
+    border:0;
+    top:50%;
+    left:70px;
+    margin-top:-10px;
+    line-height:20px;
+    background:none;
+}
+
+header div .search input:focus{
+    outline:none;
+}
+
+header div .lang i{
+    font-size:32px;
+    line-height:36px;
+    position:absolute;
+    top:50%;
+    left:17px;
+    margin-top:-22px;
+}
+
+header div .lang dl{
+    position:absolute;
+    top:100%;
+    display:block;
+    opacity:0;
+    right:0;
+    z-index:9999;
+    background:#000;
+    padding:13px 23px 13px 33px;
+    border-top:3px solid #e16501;
+    transition:.5s;
+}
+
+header div .lang dl dd{
+    display:block;
+    line-height:40px;
+    white-space:nowrap;
+    width:100%;
+    font-size:14px;
+    text-align:right;
+}
+
+header div .lang dl dd a{
+    color:#e5e5e5;
+}
+
+header div .lang dl dt{
+    display:block;
+    border:7px solid #000;
+    border-top:0;
+    font-size:0;
+    width:0;
+    height:0;
+    border-bottom:7px solid #E16501;
+    position:absolute;
+    top:-10px;
+    right:25px;
+}
+
+header div .lang:hover dl{
+    opacity:1;
+}
+
+.pack_box{
+    height:70px;
+}
+
+footer{
+    width:1200px;
+    margin:20px auto;
+    text-align:center;
+}
+
+footer nav p a{
+    display:inline-block;
+    margin-right:36px;
+}
+
+footer nav p a:last-child{
+    margin-right:0;
+}
+
+footer p{
+    font-size:14px;
+    color:#000;
+    line-height:30px;
+}
+
+footer p a{
+    color:#000;
+}
+
+footer p a:hover{
+    color:#E16501;
+}
+.returnTop{
+    width:55px;
+    height:55px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    opacity:0;
+    background:#000;
+}
+.returnTop a{
+    color:#fff;
+    display:block;
+    font-size:25px;
+    height:100%;
+    line-height:55px;
+    text-align:center;
+    width:100%;
+    transition:.5s;
+}
+.returnTop a i{
+    font-weight:bold;
+    font-size:25px;
+}
+.returnTop a:hover{
+    background:#E16105;
+}

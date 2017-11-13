@@ -1,0 +1,33 @@
+.container div article dl{
+    display:block;
+    width:800px;
+    margin:30px auto 0;
+    border-radius:6px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+}
+.container div article dt{
+    border-bottom:1px solid #ccc;
+    line-height:45px;
+    height:45px;
+}
+.container div article dt a{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0;
+    color:#000;
+}
+.container div article dd{
+    min-height:10px;
+
+}
+.container div article dd span{
+    display:inline-block;
+    width: 25%;
+    height:40px;
+    line-height:40px;
+    margin-top:20px;
+}
+.container div article dd span a{
+    color:#000;
+}

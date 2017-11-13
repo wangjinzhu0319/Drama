@@ -1,0 +1,12 @@
+*{margin:0;padding:0;}
+ul,li,p,img,h1,h2,h3,h4,h5,h6,label,nav,header,footer,aside,article,figcaption,figure,section,hgroup{display:block;}
+ul{list-style:none;}
+img{border:0;}
+a{text-decoration:none;outline:none;}
+.clearfix:after{display:block;height:0;content:".";clear:both;visibility:hidden;}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+body{font-family:  Microsoft Yahei, Helvetica;}
+hr{height: 0;width: 0;}
+@media screen and (min-width:1260px){
+    body{overflow-x:hidden}
+}

@@ -1,0 +1,18 @@
+.container{padding-bottom:30px !important;}
+.container div article{ background:#fff;border-radius:10px;animation:case .6s; text-align:center; padding:50px;box-sizing:border-box; margin-top:30px; font-size:16px;}
+.container div article img{ margin:31px auto 0;}
+.container div article p{display:block; margin-top:31px; width:800px; color:rgb(62, 62, 62); line-height:31px;}
+.container div article small{ display:block;font-size:12px; color:rgb(136, 136, 136);word-wrap:break-word !important; margin-top:20px;}
+.container div article h3{font-size: 20px; font-weight:normal;display: block; text-align:left;}
+.container div article small:nth-of-type(1){text-align:left;margin-bottom:48px; margin-top:20px;color:#999;}
+.container div article small span{ color:#E16501;font-size: 13px;padding: 10px; }
+@keyframes case{
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

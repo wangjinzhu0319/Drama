@@ -1,0 +1,18 @@
+.pills div ul li:nth-child(1) a{ background:#f4f4f4; color:#E16501;}
+.pills div ul li:nth-child(1):after{ width:100%;}
+.container table{ width:1100px; margin:0 auto; border:1px solid #e5e5e5;}
+.container table tr{ margin:0; padding:0;}
+.container table tr th h3{text-align:left; padding: 0 5px 0 15px; font-weight: 700; font-size: 16px; background: #fafafa; height: 60px; line-height: 60px; }
+.container table tr td{border-top: 1px solid #e5e5e5;}
+.container table tr td dt,.container table tr td dd{ float:left; display:block; font-size:14px;line-height:56px;}
+.container table tr td dt{ width:120px; padding-left:20px;min-height:56px;}
+.container table tr td dd{ width:860px;}
+.container table tr td dd img{ margin-top:3px;}
+.container table tr td dd input[type='text'],.container table tr td dd input[type='password']{ width: 350px; height: 28px; padding: 2px 5px; border: 1px solid #dcdfe0; background-color: #fff; color: #333; outline: 0; border-radius: 2px; }
+.container table tr td dd label{ display:inline-block;margin-right:20px;}
+.container table tr td dd #yzm{ width:100px;}
+.container table tr td input[type='submit']{margin-top:11px;display: block; background: #E16501; border: 0 none; height: 34px; line-height: 26px; padding: 0 35px; color: #fff; cursor: pointer; border-radius: 2px; font-family: 'Microsoft YaHei',Tahoma,Verdana,Simsun;}
+.container table tr td input[type='submit']:hover{ opacity:.8;}
+.container table em { display:block; font-weight: bold; padding-right:1em; vertical-align: top; }
+.error{ color:red; border-color:red !important;}
+#checkCode{ display:inline-block; width:100px;height:40px;line-height:40px;margin-top:8px;border:1px solid #ccc;text-align:center;cursor:pointer;margin-left:20px;font-size:24px;}
